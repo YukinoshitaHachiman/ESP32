@@ -7,8 +7,8 @@
 #include "esp_log.h"
 
 #define USER_SSID "Redmi Note 13 Pro"
-#define USER_PASSWORD "11111111"
-
+#define USER_PASSWORD "12345678"
+int test1 = 1;
 void wifi_event_handle(void* event_handler_arg,esp_event_base_t event_base,int32_t event_id,void* event_data){
     if(event_base == WIFI_EVENT){
         switch(event_id){
